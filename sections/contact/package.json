@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "gatsby": "^5.13.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "contact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "gatsby develop"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
