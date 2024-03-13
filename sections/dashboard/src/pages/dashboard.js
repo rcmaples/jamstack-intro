@@ -9,11 +9,11 @@ import RouteLogin from "../components/route-login";
 import { navigate } from "gatsby";
 
 const Dashboard = ({ location }) => {
-  useEffect(() => {
-    if (location.pathname.matches(/^\/dashboard\/?$/)) {
-      navigate("/dashboard/login", { replace: true });
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (location.pathname.matches(/^\/dashboard\/?$/)) {
+  //     navigate("/dashboard/login", { replace: true });
+  //   }
+  // }, []);
   return (
     <Layout>
       <Profile />
@@ -22,7 +22,6 @@ const Dashboard = ({ location }) => {
         <RouteSecret path="/dashboard/secret" />
         <RouteLogin path="/dashboard/login" />
       </Router>
-      <p>TODO: Create a dashboard</p>
     </Layout>
   );
 };

@@ -12,6 +12,7 @@ const Profile = () => {
           See your base
         </Link>
       </nav>
+      <span>TODO: show login status</span>
     </div>
   );
 };
